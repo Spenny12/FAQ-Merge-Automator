@@ -12,7 +12,7 @@ import concurrent.futures
 st.set_page_config(layout="wide", page_title="Merge Suggestions Tool")
 
 st.title("Candour URL Merge Suggestion Tool")
-st.markdown("This tool helps you find the best pages to merge/redirect a list of source URLs into. It works by analyzing page content similarity.")
+st.markdown("This tool helps you find the best pages to merge/redirect a list of source URLs into. It works by analysing page content similarity.")
 
 # --- API Key Input ---
 with st.sidebar:

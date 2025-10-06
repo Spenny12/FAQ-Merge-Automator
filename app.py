@@ -104,7 +104,7 @@ with col1:
 
 with col2:
     st.header("2. Destination URLs")
-    st.markdown("👇 Paste the URLs you want to **redirect to** (one per line).")
+    st.markdown("👇 Paste the URLs you want to **redirect to** (one per line). I think these should all be unique from the first list. Idk what will happen if some URLs here are present in the 1st list. Probably something bad.")
     dest_urls_text = st.text_area("Destination URLs", height=250, label_visibility="collapsed", placeholder="https://example.com/new-topic-a\nhttps://example.com/new-topic-b")
 
 if st.button("Find Merge Suggestions", type="primary"):
